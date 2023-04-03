@@ -318,7 +318,7 @@ export const ChatInput: FC<Props> = ({
           rel="noreferrer"
           className="underline"
         >
-          ChatBot-CR
+          Chat-CR
         </a>
         .{' '}
         {t(
