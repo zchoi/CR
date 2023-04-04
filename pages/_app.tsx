@@ -11,6 +11,7 @@ function App({ Component, pageProps }: AppProps<{}>) {
     <div className={inter.className}>
       <Toaster />
       <Component {...pageProps} />
+      <Analytics/>
     </div>
   );
 }
